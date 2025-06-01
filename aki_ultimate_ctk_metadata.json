@@ -1,0 +1,201 @@
+{
+    "selected_features": [
+        "Age",
+        "Sexe",
+        "IMC",
+        "Diab\u00e8te",
+        "HTA",
+        "IRC",
+        "FEVG_pr\u00e9",
+        "NYHA",
+        "ASA",
+        "Euroscore",
+        "Cr\u00e9at_pr\u00e9",
+        "Clairance_pr\u00e9",
+        "Hb_pr\u00e9",
+        "Chir",
+        "Urg",
+        "Redux",
+        "Dur\u00e9e_CEC",
+        "Dur\u00e9e_clamp",
+        "PAM_CEC",
+        "CGR_per"
+    ],
+    "feature_value_maps": {
+        "Sexe": {
+            "values": [
+                1,
+                2
+            ],
+            "labels": [
+                "Homme",
+                "Femme"
+            ],
+            "default_display": "Homme"
+        },
+        "Diab\u00e8te": {
+            "values": [
+                0,
+                1
+            ],
+            "labels": [
+                "Non",
+                "Oui"
+            ],
+            "default_display": "Non"
+        },
+        "HTA": {
+            "values": [
+                0,
+                1
+            ],
+            "labels": [
+                "Non",
+                "Oui"
+            ],
+            "default_display": "Oui"
+        },
+        "IRC": {
+            "values": [
+                0,
+                1
+            ],
+            "labels": [
+                "Non",
+                "Oui"
+            ],
+            "default_display": "Non"
+        },
+        "NYHA": {
+            "values": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "labels": [
+                "I",
+                "II",
+                "III",
+                "IV"
+            ],
+            "default_display": "III"
+        },
+        "ASA": {
+            "values": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "labels": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "default_display": "3"
+        },
+        "Urg": {
+            "values": [
+                0,
+                1,
+                2
+            ],
+            "labels": [
+                "Non",
+                "Oui",
+                "Salvage"
+            ],
+            "default_display": "Oui"
+        },
+        "Redux": {
+            "values": [
+                0,
+                1
+            ],
+            "labels": [
+                "Non",
+                "Oui"
+            ],
+            "default_display": "Non"
+        },
+        "Chir": {
+            "values": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "labels": [
+                "Pontage aorto-coronaire",
+                "Remplacement valv. aortique",
+                "Plastie valv. aortique",
+                "Anneau mitral",
+                "Plastie mitrale",
+                "Anneau tricuspide",
+                "Bentall",
+                "Cong\u00e9nital",
+                "Combin\u00e9e: 1 proc hors PAC",
+                "Combin\u00e9e: 2 proc\u00e9dures",
+                "Combin\u00e9e: 3 proc\u00e9dures",
+                "Combin\u00e9e: 4 proc\u00e9dures",
+                "Autre"
+            ],
+            "default_display": "Pontage aorto-coronaire"
+        }
+    },
+    "X_train_dtypes": {
+        "Age": "float64",
+        "Sexe": "float64",
+        "IMC": "float64",
+        "Diab\u00e8te": "float64",
+        "HTA": "float64",
+        "IRC": "float64",
+        "FEVG_pr\u00e9": "float64",
+        "NYHA": "float64",
+        "ASA": "float64",
+        "Euroscore": "float64",
+        "Cr\u00e9at_pr\u00e9": "float64",
+        "Clairance_pr\u00e9": "float64",
+        "Hb_pr\u00e9": "float64",
+        "Chir": "float64",
+        "Urg": "float64",
+        "Redux": "float64",
+        "Dur\u00e9e_CEC": "float64",
+        "Dur\u00e9e_clamp": "float64",
+        "PAM_CEC": "float64",
+        "CGR_per": "float64"
+    },
+    "processed_feature_names": [
+        "Age",
+        "Sexe",
+        "IMC",
+        "Diab\u00e8te",
+        "HTA",
+        "IRC",
+        "FEVG_pr\u00e9",
+        "NYHA",
+        "ASA",
+        "Euroscore",
+        "Cr\u00e9at_pr\u00e9",
+        "Clairance_pr\u00e9",
+        "Hb_pr\u00e9",
+        "Chir",
+        "Urg",
+        "Redux",
+        "Dur\u00e9e_CEC",
+        "Dur\u00e9e_clamp",
+        "PAM_CEC",
+        "CGR_per"
+    ]
+}
