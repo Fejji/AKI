@@ -1,1 +1,13 @@
-streamlitpandasnumpyscikit-learn>=1.0 # Assurez-vous d'une version récente pour KNNImputer et autres fonctionnalitésjoblibpyreadstatoptuna # Si vous prévoyez de ré-entraîner/optimiser via Streamlit (plus avancé)xgboost # Si XGBoost est votre modèle principallightgbm # Si LightGBM est une optionseaborn # Pour les graphiques d'importancematplotlibshap # Si vous voulez les explications SHAPimbalanced-learn # Pour SMOTE et ImbPipelinecustomtkinter n'est plus nécessaire pour la version web
+streamlit
+pandas
+numpy
+scikit-learn>=1.0
+joblib
+pyreadstat
+optuna
+xgboost
+lightgbm
+seaborn
+matplotlib
+shap
+imbalanced-learn
