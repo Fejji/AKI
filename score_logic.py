@@ -46,11 +46,11 @@ except ImportError:
 # Le fichier .sav n'est pas nécessaire pour la prédiction, seulement pour l'entraînement.
 FILE_PATHS: Dict[str, str] = {
     # "sav_file": "Base.sav", # Non utilisé pour la prédiction
-    "model_filename": "aki_ultimate_ctk_model_v21_final_fixes.joblib", 
-    "preprocessor_filename": "aki_ultimate_ctk_preprocessor_v21_final_fixes.joblib",
-    "feature_selector_filename": "aki_ultimate_ctk_feature_selector_v21.joblib", 
-    "metadata_filename": "aki_ultimate_ctk_metadata_v21_final_fixes.json",
-    "shap_background_filename": "shap_background_data_v21_final_fixes.joblib",
+    "model_filename": "aki_ultimate_ctk_model.joblib", 
+    "preprocessor_filename": "aki_ultimate_ctk_preprocessor.joblib",
+    "feature_selector_filename": "aki_ultimate_ctk_feature_selector.joblib", 
+    "metadata_filename": "aki_ultimate_ctk_metadata.json",
+    "shap_background_filename": "shap_background_data.joblib",
 }
 
 # Configuration du logging
